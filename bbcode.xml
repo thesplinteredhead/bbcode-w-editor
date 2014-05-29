@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bbcode>
+	<bb enabled="true">
+		<name>Bold</name>
+		<desciption>Bolds[-]Content</desciption>
+		<input>[b]&lt;1&gt;[/b]</input>
+		<output>&lt;strong&gt;[1]&lt;/strong&gt;</output>
+	</bb>
+	<bb enabled="true">
+		<name>Italic</name>
+		<desciption>Italicize[-]Content</desciption>
+		<input>[i]&lt;1&gt;[/i]</input>
+		<output>&lt;em&gt;[1]&lt;/em&gt;</output>
+	</bb>
+	<bb enabled="true">
+		<name>Underline</name>
+		<desciption>Underlines[-]Content</desciption>
+		<input>[u]&lt;1&gt;[/u]</input>
+		<output>&lt;u&gt;[1]&lt;/u&gt;</output>
+	</bb>
+	<bb enabled="true">
+		<name>YouTube</name>
+		<desciption>YouTube[-]Tag[-]http://www.youtube.com/watch?v=???,[-]Where[-][youtube=???[-]width=?[-]height=?]</desciption>
+		<input>[youtube=&lt;1&gt;[-]width=&lt;2&gt;[-]height=&lt;3&gt;]</input>
+		<output>&lt;object[-]width=&quot;[2]&quot;[-]height=&quot;[3]&quot;&gt;[~]&lt;param[-]name=&quot;movie&quot;[-]value=&quot;http://www.youtube.com/v/[1]&amp;hl=en&quot;&gt;&lt;/param&gt;&lt;param[-]name=&quot;wmode&quot;[-]value=&quot;transparent&quot;&gt;&lt;/param&gt;[~]&lt;embed[-]src=&quot;http://www.youtube.com/v/[1]&amp;hl=en&quot;[-]type=&quot;application/x-shockwave-flash&quot;[-]wmode=&quot;transparent&quot;[-]width=&quot;[2]&quot;[-]height=&quot;[3]&quot;&gt;&lt;/embed&gt;[~]&lt;/object&gt;</output>
+	</bb>
+</bbcode>
